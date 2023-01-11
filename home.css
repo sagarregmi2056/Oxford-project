@@ -1,0 +1,320 @@
+body{
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+     background-image: linear-gradient(
+        205deg,
+        hsl(180deg 11% 9%) 0%,
+        hsl(185deg 29% 12%) 12%,
+        hsl(188deg 47% 15%) 24%,
+        hsl(189deg 69% 18%) 36%,
+        hsl(190deg 100% 19%) 48%,
+        hsl(193deg 100% 23%) 60%,
+        hsl(195deg 100% 28%) 71%,
+        hsl(197deg 100% 33%) 82%,
+        hsl(198deg 100% 38%) 91%,
+        hsl(202deg 80% 48%) 100%
+      );;
+}
+
+.menu li{
+    display: inline;
+    
+    
+}
+.menu{
+    background-color: rgb(12, 12, 22);
+    position: relative;
+    margin: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* position: sticky; */
+    /* top:0; */
+    
+    
+}
+.menu a{
+    color:#848895;;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+.menu button{
+    margin-left: 200px;
+    /* background-color: linear-gradient(101.81deg, rgb(188, 68, 204) -4.52%, rgb(115, 55, 189)); */
+    background: rgb(2,0,36);
+/* background: radial-gradient(circle, rgba(9,105,227,1) 0%, rgba(43,47,170,1) 35%, rgba(0,212,255,1) 100%);
+ */
+ /* background-image: linear-gradient(
+    230deg,
+    hsl(0deg 0% 87%) 0%,
+    hsl(205deg 12% 51%) 31%,
+    hsl(198deg 93% 16%) 100% */
+  /* ); */
+
+  background-image: linear-gradient(
+        230deg,
+        hsl(187deg 39% 5%) 0%,
+        hsl(195deg 53% 7%) 31%,
+        hsl(197deg 73% 9%) 100%
+      );
+border: solid(7);
+color:white;
+height: 40px;
+width: 90px;
+font-size: 20px;
+border-radius: 10px;
+display: inline;
+}
+.menu button:hover{
+    background: white;
+    color:black;
+    cursor: pointer;
+    /* display: inline; */
+}
+
+.dropdown{
+    position: absolute;
+    left: 0%;
+    background-color:rgb(68, 68, 69); 
+    margin-left:180px;
+    padding: 0%;
+    width: 300px;
+    display: none;
+    margin-top: 5px;
+    z-index: 100;
+    font-size: 23px;
+    padding-bottom: 10px;
+    color:white;
+    border-radius: 10px;
+    
+   
+}
+
+.menu li:hover .dropdown{
+    display: block;
+    color:white;
+
+
+}
+.menu li:hover{
+    background-color: rgb(45, 45, 46);
+    color:white;
+
+
+
+}
+.menu a:hover{
+    color:white;
+    /* background-color: black; */
+    cursor: pointer;
+}
+.dropdown a:hover{
+    color:white;
+}
+.menu i{
+    color:green;
+}
+.com{
+    /* height: 80px; */
+    display: inline;
+    background:none;
+ margin-left: 300px;
+ color: azure;
+ font-size: 30px;
+ font-family: c;
+}
+.swiper-wrapper img{
+    height: 500px;
+    width: 100%;
+}
+.why h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.features {
+    font-size: 80px;
+    /* font-weight: bold; */
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    color:white;
+
+
+}
+.features h4{
+
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.features p{
+    font-size: 20px;
+}
+.features div{
+    background-color:#1d1e1f;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* transition-property: background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear; */
+    
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.features div:hover{
+    box-shadow: 3px 2px 3px 2px rgb(109, 107, 107);
+    background-image: linear-gradient(
+        230deg,
+        hsl(187deg 39% 5%) 0%,
+        hsl(195deg 53% 7%) 31%,
+        hsl(197deg 73% 9%) 100%
+      );
+    cursor: pointer;
+    /* -webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2); */
+transition: 1s ease;
+    /* background: #363535;
+    border-radius: 50%; */
+}
+.aboutus{
+    color:white;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: #848895; */
+    margin-top: 40px;
+}
+.aboutus p{
+    color:rgb(249, 247, 247);
+    font-size: 18px;
+    /* background-color: #848895; */
+}
+.aboutus button{
+    background-color: white;
+    color: #1d1e1f;
+    margin-left: 50PX;
+    padding: 10PX;
+    border-radius: 18px;
+    margin: 10px;
+    margin-top: 50px;
+    
+    
+
+}
+.aboutus button:hover{
+    background-color: #848895;
+    color:whitesmoke;
+    /* transition-duration: 1s; */
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+
+}
+.aboutus img:hover{
+   background-color: #848895; 
+   border-radius: 50%;
+   transition-property: background, border-radius;
+    transition-duration: 1s;
+}
+.sagar{
+    color:white;
+    margin-top: 50px;
+}
+.sagar span{
+    margin-left: 25%;
+    font-size: 20px;
+    color:rgb(27, 27, 126);
+}
+.sagar i{
+    margin-left:16%;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+.regmi {
+    padding: 20px;
+    display: grid;
+    /* grid: 1fr 1fr; */
+    /* color:linear-gradient(101.11deg,#d873e6 14.47%,#934aec 39.43%); */
+    /* background:; */
+    grid-template-columns: 1fr 1fr;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    margin-top: 90px;
+    font-size: 40px;
+}
+.regmi span{
+    /* color:linear-gradient(101.11deg,#dc97e5 14.47%,#934aec 39.43%); */
+    /* background-color: linear-gradient(to bottom, #3399ff 0%, #ff99cc 100%); */
+    /* background-repeat: none; */
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.lokesh{
+    color:white;
+    display: inline;
+    text-align: center;
+
+}
+.lokesh h2{
+    font-size: 70px;
+    padding: 50px;
+}
+.lokesh button{
+    background-color: #008793;
+    text-align: center;
+    margin-left: 50%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 18px;
+    font-family: sans-serif;
+}
+.lokesh button:hover{
+    background-color: rgb(29, 37, 100) ;
+    /* font-family: sans-serif; */
+}
+.buttom {
+    color:white;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+   padding: 20px;
+}
+
+.buttom p{
+    color:rgb(213, 210, 210);
+}
+.buttom a:hover{
+    color:rgb(177, 169, 169);
+}
+.buttom h3{
+    color:#0fc6d6;
+}
+.logo{
+    position: fixed;
+    color: white;
+    top: 80%;
+    right:30px;
+    background-color: #46a3ef;
+    padding: 10px;
+    border-radius: 30px;
+}
+.logo:hover{
+    
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
